@@ -11,7 +11,11 @@ body{
 }
 .title{
 	text-align: center;
-	border-bottom: solid .01em;
+	border-bottom: thick dotted #000;
+	padding-bottom: .2em;
+	font-family: 'Sintony', sans-serif;
+}
+h1,h2,h3,h4,h5{
 	font-family: 'Sintony', sans-serif;
 }
 #statement{
@@ -27,6 +31,9 @@ body{
 }
 #statement ul li{
 	width: 80%;
+}
+.center{
+	text-align:center !important;
 }
 footer{
 	border-top: solid .01em;
