@@ -4,6 +4,11 @@ body{
 }
 p{
 	font-size: 1.2em;
+	line-height: 1.5em;
+	
+}
+p:first-letter{
+	font-size: 2em;
 }
 .container{
 	padding-top: 20px;
@@ -16,7 +21,9 @@ p{
 	text-align: center;
 	border-bottom: thick dotted #000;
 	padding-bottom: .2em;
+	line-height: .9em;
 	font-family: 'Sintony', sans-serif;
+	font-weight: 700;
 }
 h1,h2,h3,h4,h5{
 	font-family: 'Sintony', sans-serif;
