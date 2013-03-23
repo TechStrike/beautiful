@@ -1,54 +1,52 @@
 body{
-	background-color: #faf9ef;
-	color: #201e03;
+  background-color: #faf9ef;
+  color: #201e03;
 }
 p{
-	font-size: 1.2em;
-	line-height: 1.5em;
-	
+  font-size: 1.2em;
+  line-height: 1.5em;
 }
 p:first-letter{
-	font-size: 2em;
+  font-size: 2em;
 }
 .container{
-	padding-top: 20px;
+  padding-top: 20px;
 }
-.main_image{
-	margin: 0 auto 0 auto;
-	display: block;
+.main-image{
+  margin: 0 auto 0 auto;
+  display: block;
 }
 .title{
-	text-align: center;
-	border-bottom: thick dotted #000;
-	padding-bottom: .2em;
-	line-height: .9em;
-	font-family: 'Sintony', sans-serif;
-	font-weight: 700;
+  border-bottom: thick dotted #000;
+  padding-bottom: .2em;
+  line-height: .9em;
+  font-family: 'Sintony', sans-serif;
+  font-weight: 700;
 }
 h1,h2,h3,h4,h5{
-	font-family: 'Sintony', sans-serif;
+  font-family: 'Sintony', sans-serif;
 }
 #statement{
-	padding: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
 }
 #statement p{
-	padding: 10px 4%;
-	font-family: "EB Garamond",serif;
+  padding: 10px 4%;
+  font-family: "EB Garamond",serif;
 }
 #statement ul{
-	padding: 10px 0px 10px 5%;
-	font-family: "EB Garamond",serif;
+  padding: 10px 0px 10px 5%;
+  font-family: "EB Garamond",serif;
 }
 #statement ul li{
-	width: 80%;
-	font-size: 1.2em;
+  width: 80%;
+  font-size: 1.2em;
 }
 .center{
-	text-align:center !important;
+  text-align:center !important;
 }
 footer{
-	border-top: solid .01em;
-	margin:  0 10px 0 10px;
-	padding: 10px 10px 0 10px;
-	font-family: "EB Garamond",serif;
+  border-top: solid .01em;
+  margin:  0 10px 0 10px;
+  padding: 10px 10px 0 10px;
+  font-family: "EB Garamond",serif;
 }
