@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>migration is beautiful</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css">
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Varela+Round|Sintony:400' type='text/css'>
+    <link rel='stylesheet' href='animate.css' type='text/css'>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <style>
+        body { background-color:#faf9ef; }
+        .centered-content{ text-align:center !important;}
+        h1{
+          font-family: 'Varela Round', sans-serif;
+          font-weight: 700;
+          color: #000;
+          line-height: 2em;
+          font-size: 1.5em;
+        }
+        h2{
+          font-family: "Sintony",serif;
+          font-weight: 400; 
+          text-transform: uppercase;
+          letter-spacing: .17em;
+          font-size: 2em;
+        }
+        #bly {
+          -moz-animation-duration: 3s;
+          -moz-animation-delay: 2s;
+          -moz-animation-iteration-count: infinite;
+        }
+    </style>
+  </head>
+  <body class="centered-content">
+    <div class="container fluid">
+        <div class="page-header">
+            <img id="bfly" src="bfly.png" >
+            <h1>migrationisbeautiful.com</h1>
+            <h2>coming soon</h2>   
+        </div>
+    </div>
+  </body>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>
+    (function($) {
+      //also try: http://jsoverson.github.com/jquery.pulse.js/
+
+     //$('#bfly').addClass("animated fadeInDown");
+     $('#bfly').addClass("animated pulse");
+
+    })(jQuery);
+  </script>
+  <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', '']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  </script>
+</html>
